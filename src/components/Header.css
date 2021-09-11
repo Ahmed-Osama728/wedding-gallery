@@ -1,0 +1,132 @@
+.header-container {
+  position: relative;
+  margin: auto;
+  width: 90%;
+  height: 110px;
+}
+
+.first-item {
+  width: 100%;
+  display: flex;
+  color: rgb(2, 77, 76);
+  position: absolute;
+  left: 25px;
+  top: 24px;
+}
+
+.lang {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 10px;
+  border-right: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid rgb(0, 0, 0);
+  color: rgb(2, 77, 76);
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  font-weight: 900;
+  overflow: hidden;
+  height: 160px;
+  font-family: lato, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 10px 10px;
+}
+
+.dd-container {
+  background-color: white;
+  position: absolute;
+  width: 100px;
+  z-index: 1;
+  box-shadow: rgb(0 0 0 / 20%) 0px 8px 16px 0px;
+  display: none;
+}
+li:hover .dd-container {
+  display: block;
+  cursor: pointer;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.dd {
+  width: 70%;
+  text-decoration: none;
+  color: black;
+  border-bottom: black 1px solid;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 10px 15px;
+  display: block;
+  text-align: center;
+}
+
+.logo-container {
+  display: flex;
+  flex: 1 1 12%;
+  position: relative;
+}
+
+.logo {
+  width: 108px;
+  max-width: 100%;
+  object-fit: contain;
+  position: absolute;
+  bottom: 55px;
+  left: 7px;
+}
+
+.left {
+  display: flex;
+  flex: 1 1 44%;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  border-top: 0.1rem solid black;
+  border-bottom: 0.1rem solid black;
+  padding-right: 20px;
+  padding-left: 25px;
+  align-self: center;
+}
+.right {
+  display: flex;
+  flex: 1 1 44%;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  border-top: 0.1rem solid black;
+  border-bottom: 0.1rem solid black;
+  padding-right: 20px;
+  padding-left: 25px;
+  align-self: center;
+}
+
+.nav {
+  width: 90%;
+  display: flex;
+  font-weight: 900;
+  align-items: center;
+  margin: 20px auto;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+}
+a {
+  text-decoration: none;
+}
+.angle {
+  color: rgb(51, 51, 51);
+  padding: 7px;
+}
+.gallery {
+  color: rgb(2, 77, 76);
+}

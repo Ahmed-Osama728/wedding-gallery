@@ -1,0 +1,17 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+.core {
+  display: flex;
+  width: 90%;
+}
+
+.examples {
+  width: auto;
+  position: relative;
+}
+
+a:hover {
+  background-color: rgb(2, 77, 76);
+}

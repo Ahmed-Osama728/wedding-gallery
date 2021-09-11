@@ -1,0 +1,159 @@
+@import 'config';
+
+body {
+  height: 1045px;
+}
+* {
+  a:hover {
+    color: #000000;
+    background-color: black;
+  }
+}
+%btn {
+  background-color: white;
+  width: 50%;
+  border: 2px solid black;
+  letter-spacing: 3px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 90%;
+  height: 1093px;
+  margin: auto;
+  position: relative;
+
+  .cat1 {
+    background-color: white;
+    display: flex;
+    text-align: center;
+
+    height: 33px;
+
+    button {
+      @extend %btn;
+      margin-right: 25px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    input {
+      @extend %btn;
+
+      &::placeholder {
+        color: black;
+      }
+    }
+  }
+
+  .cat2 {
+    position: absolute;
+    height: 130px;
+    width: 100%;
+    background-color: black;
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+    .cat-info {
+      text-align: center;
+      padding-right: 15px;
+      padding-left: 15px;
+
+      &:hover {
+        background-color: black;
+      }
+      .cat-icon {
+        margin: auto;
+        height: 33px;
+      }
+
+      p {
+        color: white;
+        font-size: 10px;
+      }
+    }
+  }
+
+  .cat3 {
+    left: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    .cat3-case {
+      width: 33%;
+      &:hover .cat3-info {
+        display: block;
+      }
+      a {
+        width: 100%;
+        position: relative;
+        .cat3-img {
+          height: 230px;
+          object-fit: cover;
+          float: left;
+          margin-bottom: 10px;
+          width: 350px;
+          padding-left: 10px;
+          padding-right: 10px;
+          filter: brightness(60%);
+        }
+        .cat3-icon {
+          position: absolute;
+          top: 32px;
+          right: 135px;
+        }
+        h3 {
+          position: absolute;
+          top: 90px;
+          right: 126px;
+          color: white;
+        }
+      }
+      .cat3-info {
+        position: relative;
+        background-color: white;
+        top: 32px;
+        right: -53px;
+        width: 219px;
+        height: 166px;
+        display: none;
+
+        span {
+          position: relative;
+          top: -135%;
+          font-size: 18px;
+          right: -36%;
+          padding: 17px;
+          color: white;
+          background: black;
+        }
+        h4 {
+          position: absolute;
+          transform: translate(-10%, -198px);
+          color: black;
+          z-index: 5;
+          font-size: 17px;
+          display: inline-grid;
+          text-align: center;
+          width: 58%;
+        }
+        p {
+          position: absolute;
+          transform: translate(3px, -166px);
+          z-index: 5;
+          font-size: 11px;
+          width: 80%;
+          text-align: center;
+          color: midnightblue;
+          padding: 11px;
+        }
+      }
+    }
+  }
+}

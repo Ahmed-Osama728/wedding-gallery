@@ -1,0 +1,67 @@
+{
+  "examples": [
+    {
+      "_id": "img1",
+      "image": "https://wedding---cart.web.app/images/image1.jpeg",
+      "title": "Irresistible appetizers’ corner",
+      "description": "Satisfy your guests with mouth-watering irresistible appetizers corner",
+      "related": "Umai"
+    },
+    {
+      "_id": "img2",
+      "image": "https://wedding---cart.web.app/images/image2.jpeg",
+      "title": "Guestbook cards",
+      "description": "Choose your best guestbook card design and write a special note for the bride and groom.",
+      "related": "If I May"
+    },
+    {
+      "_id": "img3",
+      "image": "https://wedding---cart.web.app/images/image3.jpeg",
+      "title": "Nature inspired candy station",
+      "description": "Candy station decorated with natural flowers and lemons",
+      "related": "The Cake Corner"
+    },
+    {
+      "_id": "img4",
+      "image": "https://wedding---cart.web.app/images/image4.jpeg",
+      "title": "Wedding chocolate mini boxes",
+      "description": "Wedding chocolates inside bride and groom mini boxes",
+      "related": "Vero’s Treats"
+    },
+    {
+      "_id": "img5",
+      "image": "https://wedding---cart.web.app/images/image5.jpeg",
+      "title": "Wedding table numbers",
+      "description": "Guide your guests to their tables with simple wedding table numbers",
+      "related": "If I May"
+    },
+    {
+      "_id": "img6",
+      "image": "https://wedding---cart.web.app/images/image6.jpeg",
+      "title": "Live ice cream station",
+      "description": "Live ice cream station. Yes, that’s right. Build your own ice cream cone.",
+      "related": "Bluemz"
+    },
+    {
+      "_id": "img7",
+      "image": "https://wedding---cart.web.app/images/image7.jpeg",
+      "title": "Add intimacy for your wedding",
+      "description": "Personalized place-cards for the wedding reception adds an intimacy for the overall ambiance.",
+      "related": "If I May"
+    },
+    {
+      "_id": "img8",
+      "image": "https://wedding---cart.web.app/images/image8.jpeg",
+      "title": "Engagement neon sign",
+      "description": "Better Together sign in the perfect setup at the perfect engagement party.",
+      "related": "NYON"
+    },
+    {
+      "_id": "img9",
+      "image": "https://wedding---cart.web.app/images/image9.jpeg",
+      "title": "Thank you cards",
+      "description": "Thank you cards printed on Linen napkins, just to give an additional personalized touch to the overall theme.",
+      "related": "If I May"
+    }
+  ]
+}

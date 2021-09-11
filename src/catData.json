@@ -1,0 +1,74 @@
+[
+  {
+    "_id": "img1",
+    "image": "/images/cat1.jpg",
+    "title": "Venues",
+    "description": "It's all about the journey, not the destination. Start your journey somewhere special. ",
+    "icon": "/icons/icon1.png",
+    "link": "Choose your venue"
+  },
+  {
+    "_id": "img2",
+    "image": "/images/cat2.png",
+    "title": " Designers",
+    "description": "Execute the design of your dreams by choosing the right designer ",
+    "icon": "/icons/icon2.png",
+    "link": "Choose your Designer"
+  },
+  {
+    "_id": "img3",
+    "image": "/images/cat3.png",
+    "title": "Bridal Boutique ",
+    "description": "Nothing says bride more than your wedding dress. Let the dress do the talking.",
+    "icon": "/icons/icon3.png",
+    "link": "Say YES to the dress"
+  },
+  {
+    "_id": "img4",
+    "image": "/images/cat4.png",
+    "title": "Outdoor Wedding Venues",
+    "description": "Nothing says bride more than your wedding dress. Let the dress do the talking.",
+    "icon": "/icons/icon4.png",
+    "link": "Say YES to the dress"
+  },
+  {
+    "_id": "img5",
+    "image": "/images/cat5.png",
+    "title": "Wedding Dresses",
+    "description": "A complete gallery full of the most exquisite bridal dress styles",
+    "icon": "/icons/icon5.png",
+    "link": "It's a carousel!"
+  },
+  {
+    "_id": "img6",
+    "image": "/images/cat6.jpg",
+    "title": "Rings",
+    "description": "Your precious stone reflects your precious bond.",
+    "icon": "/icons/icon6.png",
+    "link": "Tie the knot"
+  },
+  {
+    "_id": "img7",
+    "image": "/images/cat7.jpg",
+    "title": "Videographers",
+    "description": "Some stories are worth re-telling. Make yours unfogettable.",
+    "icon": "/icons/icon7.png",
+    "link": "Save the memories"
+  },
+  {
+    "_id": "img8",
+    "image": "/images/cat8.jpg",
+    "title": "Photographers",
+    "description": "Cameras don't just capture moments, they capture souls. ",
+    "icon": "/icons/icon8.png",
+    "link": "Catch the moments"
+  },
+  {
+    "_id": "img9",
+    "image": "/images/cat9.jpg",
+    "title": "DJs",
+    "description": "Let the DJ turn it all the way up while you're busy dancing. ",
+    "icon": "/icons/icon9.png",
+    "link": "Play it your way"
+  }
+]

@@ -1,0 +1,12 @@
+.paginate {
+  display: flex;
+  font-size: 18px;
+  margin: 30 auto;
+  justify-content: center;
+}
+
+.num {
+  border: 1px solid rgb(221, 221, 221);
+  padding: 8px 12px;
+  color: rgb(2, 77, 76);
+}
